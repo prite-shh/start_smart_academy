@@ -14,10 +14,11 @@ Steps to Setup Project:
 2. Command - cp .env.example .env
 3. Command - php artisan key:generate
 4. Create Database in PhpMyAdmin
-5. Enter Database name in ".env" file
+5. Enter Database details in ".env" file
 6. Command - php artisan migrate
-7. Command - php artisan DB:seed
-8. Command - php artisan serve
+7. Command - php artisan storage:link
+8. Command - php artisan DB:seed
+9. Command - php artisan serve
 
 ---------------------------------------------------------------
 Great !! You are good to go...
